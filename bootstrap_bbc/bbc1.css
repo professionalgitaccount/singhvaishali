@@ -1,0 +1,105 @@
+.pro1_img,.pro2_img,.pro3_img,.pro4_img,.pro5_img{position:relative;}
+.data1{position:absolute}
+@media screen and (min-width:992px){
+		.menu{width: 100%;}
+		.menu .container-fluid{padding-right: 0px;padding-left: 0px}
+		.navbar-default{background-color:#000;padding-left: 15px;padding-right: 15px}
+		.india h3{font-size:150%;text-transform: capitalize;color:#000;font-weight:bold;}
+		.india p{font-size:120%;padding:2% 0;color:#4a4a4a;}
+		.india a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#000;}
+		.india h2{padding-left:1%;border-left:2px solid red;color:#4a4a4a;font-weight:bold;font-size:180%;}
+		.news a{border-left:3px solid blue;font-size:14px;color:#000;}	
+		.sport h3{font-size:150%;text-transform: capitalize;color:#000;font-weight:bold;}
+		.sport p{font-size:120%;padding:2% 0;color:#4a4a4a;}
+		.sport a{padding-left:2%;border-left:2px solid yellow;font-size:90%;color:#000;}
+		.sport h2{padding-left:1%;border-left:2px solid yellow;color:#4a4a4a;font-weight:bold;font-size:180%;}
+		
+	.top_list_heading{text-transform:uppercase;color:#fff;background:#e91802;padding:2% 2%;
+		margin-bottom:0 ;font-size:16px }
+	.list_odd, .list_even{list-style:none;text-decoration:none;padding:4% 10%;}
+	.list_even{background:#252525;}
+	.list_odd{background:#363636;}
+	.top_list_data{color:#ccc;margin-left:20%;display:block;cursor:pointer;font-size:120%}
+	.top_list_list{padding-left:0;}
+	.top_list_bullet{display:block;border-radius:20px;height:40px;width:40px;background:#e91802;
+	color:#fff;position: absolute;text-align:center;margin-top:5%}
+	.editor .col-md-8 .editor_first img{width:100%;}
+	.data1{top:40%;color:#fff;padding-left:2%}
+	.data1 a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}
+	.data2,.data3,.data4,.data5{position:absolute;top:40%;padding-left:2%;padding-right:2%}
+	.data2 h4{color:#fff;padding:0 2%;font-size:120%;}
+	.data2{margin-bottom: 20px}
+	.data3 h4{color:#fff;padding-left: 2%;font-size:120%;}
+	.data4 h4{color:#fff;padding-left: 2%;font-size:120%;}
+	.data5 h4{color:#fff;padding:0% 2%;font-size:120%;}
+	.data5 a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}
+	.data4 a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}
+	.data3 a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}
+	.data2 a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}
+	.editor .col-md-4 img{margin-bottom:20px}
+	.editor a{font-size:20px;text-transform: capitalize;text-decoration: none;color:#000;font-weight:bold;}
+	.editor p{font-size:17px;padding:10px 0;color:#4a4a4a;}
+	.editor img{padding:10px 0;}
+	.editor h1{padding-left:15px;}
+}
+
+
+@media screen and (max-width:480px){
+		
+	.navbar-default{background-color:#000;}
+	.menu{background:#000 }
+	.menu .container{margin-top: 0;margin-bottom: 0}
+	.menu .container nav{margin-bottom: 0}
+	.navbar-default{background-color:#000;border-color: #000}
+
+	.india h3{font-size:110%;text-transform: capitalize;color:#000;font-weight:bold;margin-bottom:2%}
+	.india p{font-size:90%;padding:1% 0;color:#4a4a4a;}
+	.india a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#000;}
+	.india h2{padding-left:1%;border-left:2px solid red;color:#4a4a4a;font-weight:bold;font-size:140%;}
+
+	.sport h3{font-size:110%;text-transform: capitalize;color:#000;font-weight:bold;margin-bottom:2%}
+	.sport p{font-size:90%;padding:1% 0;color:#4a4a4a;}
+	.sport a{padding-left:2%;border-left:2px solid yellow;font-size:90%;color:#000;}
+	.sport h2{padding-left:1%;border-left:2px solid yellow;color:#4a4a4a;font-weight:bold;font-size:140%;}
+	.big_pic h2{font-weight:bold;font-size:130%;color:#4a4a4a;}
+	.big_pic a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#000;}
+	.big_pic h3{font-size:115%;color:#000;font-weight:bold;margin-bottom:2%}
+
+	.top_list_heading{text-transform:uppercase;color:#fff;background:#e91802;padding:2% 2%;
+		font-size:16px;margin-bottom:0 }
+	.list_odd, .list_even{list-style:none;text-decoration:none;padding:4% 10%;}
+	.list_even{background:#ccc;}
+	.list_odd{background:#fff;}
+	.top_list_data{color:#000;margin-left:20%;display:block;cursor:pointer;font-size:115%}
+	.top_list_list{padding-left:0;border:1px solid red;}
+	.top_list_bullet{display:block;border-radius:20px;height:40px;width:40px;background:#e91802;
+	color:#fff;position: absolute;text-align:center;margin-top:5%}
+	.editor .col-md-8 .editor_first img{width:100%;}
+	.editor a{font-size:115%;text-transform: capitalize;text-decoration: none;color:#000;font-weight:bold;}
+	.editor p{font-size:100%;padding:5px 0;color:#4a4a4a;}
+	.editor img{padding:10px 0;}
+	.editor .col-md-4{margin-bottom:2px solid #ccc}
+	/*.image1_tet{position:absolute;}*/
+	/*.image1_tet h1{font-size:180%;top:300%;}*/
+	/*.image1_tet a{padding-left:2%;border-left:2px solid red;font-size:90%;color:#ccc;}*/
+	.customer{list-style: none;margin: 20px 0}
+.customer li{padding: 5px 0}
+.customer li a{text-decoration:none;color:#fff;font-size: 14px}
+.service_head{font-size: 20px;color:#222222;font-weight:normal;text-transform:
+uppercase}
+.footer_01{background:#252525;}
+.footer_01 h2{font-size:22px;color:#fff;padding-bottom:5px;}
+.col-md-2 ul{margin-left:50px;}
+
+
+}
+
+@media screen (min-width:481px) and (max-width:767px){
+/*		.navbar-default{background-color:#000;}*/
+.menu{background:#000 }
+	.menu .container{margin-top: 0;margin-bottom: 0}
+	.menu .container nav{margin-bottom: 0}
+	.navbar-default{background-color:#000;border-color: #000}
+
+
+}
