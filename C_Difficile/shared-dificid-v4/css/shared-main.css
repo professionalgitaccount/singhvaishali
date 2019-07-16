@@ -1,0 +1,418 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/*********************************** Tags ************************************
+Update as needed
+************************************ Tags ************************************/
+
+/*Fonts & Font Style*/
+.bold{font-family: "HelveticaNeue-Bold";}
+.normal{font-family: "HelveticaNeue";}
+.light{font-family: "HelveticaNeue-Light";}
+.italic{font-family: "HelveticaNeue-Italic";}
+.boldItalic{font-family: "HelveticaNeue-BoldItalic";}
+.lightItalic{font-family: "HelveticaNeue-LightItalic";}
+.medium{font-family: "HelveticaNeue-Medium";}
+.condensedBold{font-family: "HelveticaNeue-CondensedBold";}
+.condensedMedium{font-family: "HelveticaNeue-CondensedMedium";}
+.oblique{font-family: "Helvetica-Oblique";}
+.helveticaBold{font-family: "HelveticaNeue-Bold";}
+.helveticaNormal{font-family: "Helvetica";}
+.avenirMedium{font-family: "Avenir-Medium";}
+.helveticaRoman{font-family: "HelveticaNeueLTStd-Roman";}
+
+    
+/* text colors */
+.magenta{color: #C60C31;}
+.lightGray{color: #9B9B9B;}
+.darkerGray{color: #353535;}
+.orange{color: #F79E5C;}
+.darkGray{color: #585858;}
+.grayer{color: #d8d8d8;}
+.white{color: #fff;}
+.yellow{color: #FED62E;}
+.blue{color: #00aeef;}
+.darkGreen{color:#004b44;}
+.lightGreen{color: #62a644;}
+
+/*Size*/
+.fs8{font-size: 8px;}
+.fs9{font-size: 9px;}
+.fs10{font-size: 10px;}
+.fs11{font-size: 11px;}
+.fs12{font-size: 12px;}
+.fs13{font-size: 13px;}
+.fs14{font-size: 14px;}
+.fs15{font-size: 15px;}
+.fs16{font-size: 16px;}
+.fs17{font-size: 17px;}
+.fs18{font-size: 18px;}
+.fs19{font-size: 19px;}
+.fs20{font-size: 20px;}
+.fs21{font-size: 21px;}
+.fs22{font-size: 22px;}
+.fs23{font-size: 23px;}
+.fs24{font-size: 24px;}
+.fs26{font-size: 26px;}
+.fs28{font-size: 28px;}
+.fs29{font-size: 29px;}
+.fs30{font-size: 30px;}
+.fs32{font-size: 32px;}
+.fs33{font-size: 33px;}
+.fs42{font-size: 42px;}
+.fs46{font-size: 46px;}
+.fs50{font-size: 50px;}
+
+/*Line height*/
+.lh10{line-height: 10px;}
+.lh11{line-height: 11px;}
+.lh12{line-height: 12px;}
+.lh13{line-height: 13px;}
+.lh14{line-height: 14px;}
+.lh15{line-height: 15px;}
+.lh16{line-height: 16px;}
+.lh17{line-height: 17px;}
+.lh18{line-height: 18px;}
+.lh19{line-height: 19px;}
+.lh20{line-height: 20px;}
+.lh21{line-height: 21px;}
+.lh22{line-height: 22px;}
+.lh23{line-height: 23px;}
+.lh24{line-height: 24px;}
+.lh25{line-height: 25px;}
+.lh26{line-height: 26px;}
+.lh28{line-height: 28px;}
+.lh29{line-height: 29px;}
+.lh30{line-height: 30px;}
+.lh31{line-height: 31px;}
+.lh32{line-height: 32px;}
+.lh33{line-height: 33px;}
+.lh34{line-height: 34px;}
+.lh35{line-height: 35px;}
+.lh50{line-height: 50px;}
+
+/*Fonts & Font Style*/
+
+.mrLeft{
+    margin-left: -1px;
+}
+
+sup.reg {
+    margin-left: -5px !important;
+    top: -5px !important;
+}
+
+
+body[data-pix="true"]{
+    font-family: "HelveticaNeue";
+    color: #585858;
+    font-size: 17px;
+    line-height: 23px;
+}
+input[data-pix="true"]{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body[data-pix="true"] sup{
+    position: relative;
+    line-height: 0px;
+    font-size:10px;
+    top:-8px;
+}
+body[data-pix="true"] sub{
+    position: relative;
+    line-height: 0px;
+    font-size:10px;
+}
+body[data-pix="true"] em{
+    -webkit-text-stroke: 0px;
+    letter-spacing: 0px;
+    /*margin-left: -1px;*/
+}
+#globalComponent{
+    display: none;
+}
+
+/*Landscape CSS Start*/
+@media all and (orientation: landscape) {
+    #landscape, .landscapeFoot, .landscapeHeader, .landscapeNav{
+        display: block !important;
+    }
+    /*Header CSS start*/
+    header{
+        width: 1024px;
+        height: 40px;
+        color: #fff;
+    }
+    header{
+        background: url(../img/dificidHeader.png) repeat-x;
+        background-size: 100% 100%;
+    }
+    /*Header CSS end*/
+
+    /*Half Moon start*/
+    .halfMoon{
+        position: absolute;
+        top: 0px;
+        left: 846px;
+        height: 33px;
+        width: 147px;
+        cursor: pointer;
+    }
+    /*Half Moon End*/
+    /*Home Icon Start*/
+    .homeIcon{
+        position: absolute;
+        top: 6px;
+        left: 162px;
+        height: 28px;
+        width: 27px;
+        cursor: pointer;
+    }
+
+    /*Navigation CSS Start*/
+    nav[data-count="six"]{
+        width: 1024px;
+        display: block;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        clear: both;
+    }
+    nav[data-count="six"] section{
+        height: inherit;
+        }
+    nav[data-count="six"] ul{
+        list-style: none;
+        display: inline-block;
+        height: inherit;
+        overflow: hidden;
+    }
+    nav[data-count="six"] ul li{
+        background: #c9d0d4; /*colour used for entire Nav*/
+        float: left;
+        width: 169px; 
+        line-height: 40px;
+        /*border-top: 1px solid #fff;*/
+        border-right: 2px solid #fff;
+        height: inherit;
+        text-align: center;
+        color: #004b44;
+        font-size: 15px;
+        padding-top: 2px;
+        text-indent: 0px;
+        cursor: pointer; 
+        vertical-align: top;
+    }
+    nav[data-count="six"] ul li.selected {
+        background:  #8a8a8a; /*colour used for Selected Nav*/
+        color: #fff;
+    }
+    nav[data-count="six"] ul li.doubleLine {
+        padding-top: 6px;
+        line-height: 16px;
+    }
+    nav[data-count="six"] ul li.noBorder{
+        border: 0px;
+    }
+    /*Navigation CSS End*/
+
+    /*Body Html Start*/
+    .btmspace{
+        margin-bottom: 70px!important;
+    }
+    #wrapper {
+        position: relative;
+        width: 1024px;
+        height: 768px;
+        overflow: hidden;
+        background: #fff no-repeat;
+    }
+    #contentWrapper{
+        min-height: 680px;
+        overflow: hidden;
+        position: relative;
+    }
+    #content{
+        position: relative;
+    }
+     /*Body Html End*/
+     
+    /*Footer CSS Start*/
+    footer{
+        width: 1024px;
+        display: block;
+        height: 48px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        clear: both;
+    }
+    footer section{
+        height: inherit;
+    }
+    footer[data-count="six"]{
+        background: url(../img/footer.png) repeat-x;
+        background-size: 100% 100%;
+    }
+    footer ul{
+        list-style: none;
+        height: inherit;
+    }
+    footer ul li{
+        display: inline-block;
+        height: inherit;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    /*Footer with Six Links*/
+    footer[data-count="six"] ul li:nth-child(1) {
+        width: 106px;
+        margin-left: 61px;
+    }
+    footer[data-count="six"] ul li:nth-child(2) {
+        width: 102px;
+        margin-left: -3px;
+    }
+    footer[data-count="six"] ul li:nth-child(3) {
+        width: 102px;
+        margin-left: -2px;
+    }
+    footer[data-count="six"] ul li:nth-child(4) {
+        width: 282px;
+        margin-left: -3px;
+    }
+    footer[data-count="six"] ul li:nth-child(5) {
+        width: 300px;
+        margin-left: -3px;
+    }
+    
+    /*Footer content ends*/
+    /*SmartBalance Headline CSS start*/
+    .ssiTxt{
+        position: absolute;
+        top: 87px;
+        left: 692px;
+        line-height: 15px;
+        font-size: 19px;
+        color: #004b44;
+        font-family: "HelveticaNeue-Bold";
+    }
+    /*SmartBalance Headline CSS end*/
+    /*SmartBalance CSS Start*/
+    #smartBalance{
+        position: absolute;
+        width: 332px;
+        height: 544px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        top: 116px;
+        left: 691px;
+        font-family: "HelveticaNeue";
+        font-size: 17px;
+        line-height: 23px;
+        color: #505050;
+    }
+    #smartBalance div {
+        margin-bottom: 4px;
+    }
+    #smartBalance li {
+        list-style-type: none;
+        position: relative;
+        margin: 0 0 13px 14px;
+    }
+    #smartBalance li:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -12px;
+        top: 6px;
+        height: 6px;
+        width: 6px;
+        background: #62a644;
+        border-radius: 50%;
+    }
+    .lastMBSmart{
+        margin-bottom: 50px !important;
+    }
+    /*SmartBalance CSS End*/
+    /*=============== Reference ==================*/
+   
+
+    .refTitle{
+         font-family: 'HelveticaNeue-Bold';
+        font-size: 19px;
+        font-weight:normal;
+        color: #919191;
+        position: absolute;
+        top: 21px;
+        left: 21px;
+    }
+    ul.refContent{
+        list-style-type:none;
+        padding:0;
+        margin: 53px 0 0 49px;
+        position: relative;
+    }
+    .refContent li{
+        counter-increment: numbs 0;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .refContent li:before {
+        content:counter(numbs)".";
+        counter-increment: numbs;
+        display: block;
+        position: absolute;
+        left: -28px;
+        font-family: "HelveticaNeue-Bold";
+        top: 0px;
+    }
+    .noDecoration{
+        text-decoration: none;
+    }
+    div#avModal_popUpReferencesOverlay {
+        background: #fff;
+        opacity: 1!important;
+    }
+    /*=============== Reference ends ==================*/
+
+    /*=============== Abbreviations ==================*/
+    .abbrTitle{
+        font-family: 'HelveticaNeue-Bold';
+        font-size: 19px;
+        font-weight:normal;
+        color: #919191;
+        position: absolute;
+        top: 30px;
+        left: 22px;
+    }
+    ul.abbrContent{
+        list-style-type:none;
+        padding:0;
+        margin: 64px 0 0 22px;
+    }
+    .abbrContent li{
+        counter-increment: numbs 0;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    .abbrContent li:before {
+        /*content:counter(numbs)"."*/;
+        counter-increment: numbs;
+        display: block;
+        position: absolute;
+        left: -19px;
+        font-family: "HelveticaNeue-Bold";
+        top: -1px;
+    }
+    div#avModal_popUpAbbreviationsOverlay {
+        background: #fff;
+        opacity: 1!important;
+    }
+    /*=============== Abbreviations ends ==================*/
+}
+/*Landscape CSS End*/
+
+

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
+ }
+@font-face {
+    font-family: 'HelveticaNeue-Medium';
+    src: url('../fonts/HelveticaNeueLTStd-Md.otf') format('opentype');
+ }
+@font-face {
+    font-family: 'HelveticaNeue-Italic';
+    src: url('../fonts/HelveticaNeueLTStd-It.otf') format('opentype');
+ }
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: url('../fonts/HelveticaNeueLTStd-Bd.otf') format('opentype');
+ }
+ @font-face {
+    font-family: 'HelveticaNeue-Condensed';
+    src: url('../fonts/HelveticaNeueLTStd-Cn.otf') format('opentype');
+ }
+ 
+@font-face {
+    font-family: 'HelveticaNeue-Bold-Condensed';
+    src: url('../fonts/HelveticaNeueLTStd-BdCn.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-CondensedBold';
+    src: url('../fonts/HelveticaNeueLTStd-BdCn.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-CondensedMedium';
+    src: url('../fonts/HelveticaNeueLTStd-MdCn.otf') format('opentype');
+}
+@font-face {
+    font-family: 'DINMittelschriftStd';
+    src: url('../fonts/DINMittelschriftStd.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HelveticaLTStd-Roman';
+    src: url('../fonts/HelveticaLTStd-Roman.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Roman';
+    src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
+}
+@font-face {
+    font-family: 'HelveticaNeue-Light';
+    src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
+}
