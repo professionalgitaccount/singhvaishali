@@ -1,0 +1,126 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+
+
+section #contentWrapper{
+    background-color: #e0e4e7;
+}
+
+.considerationsBack{
+    position: absolute;
+    top: 62px;
+    left: 27px;
+    width: 626px;
+    height: 542px;
+    background-color: white;
+    border-top: 8px solid #62a644;
+}
+
+.headerConsideration{
+    position: absolute;
+    top: 94px;
+    left: 48px;
+}
+
+.headerConsiderationDesc{
+    position: absolute;
+    top: 134px;
+    left: 53px;
+}
+.recommendationCDI{
+    position: absolute;
+    top: 195px;
+    left: 53px;
+}
+.recommendationCDIContentOne{
+    position: absolute;
+    top: 224px;
+    left: 51px;
+}
+.recommendationCDIContentTwo{
+    position: absolute;
+    top: 242px;
+    left: 53px;
+}
+.considerationContentListOne{
+    position: absolute;
+    top: 281px;
+    left: 71px;
+}
+.considerationContentListOne li{
+    list-style-type: none;
+    position: relative;
+}
+.considerationContentListOne li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.inAddition{
+    position: absolute;
+    top: 335px;
+    left: 53px;
+}
+.considerationContentListTwo{
+    position: absolute;
+    top: 360px;
+    left: 71px;
+    list-style: none;
+}
+.mrBtm7{
+    margin-bottom: 7px;
+}
+.recommendationFMT{
+    position: absolute;
+    top: 446px;
+    left: 48px;
+}
+.costs{
+    position: absolute;
+    top: 475px;
+    left: 53px;
+}
+.afterStudy{
+    position: absolute;
+    top: 518px;
+    left: 53px;
+}
+.bottomtxt{
+    position: absolute;
+    top: 625px;
+    left: 48px;
+   color: #585858;
+}
+.considerationContentListThree{
+    position: absolute;
+    top: 539px;
+    left: 71px;
+}
+.considerationContentListThree li{
+    list-style-type: none;
+    position: relative;
+}
+.considerationContentListThree li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
