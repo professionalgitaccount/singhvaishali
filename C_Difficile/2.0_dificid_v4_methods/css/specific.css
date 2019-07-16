@@ -1,0 +1,1374 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+.title{
+	position: absolute;
+	top: 65px;
+}
+/******/
+/******/
+.avModalOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #585858;
+}
+
+section#contentWrapper {
+    background: #e0e4e7;
+}
+/******/
+/******/
+.tableHeadColor{
+    color:white;
+}
+
+.introContainer{
+	position: absolute;
+	top: 61px;
+	background: #ffffff;
+    width: 626px;
+    margin-left: 27px;
+	height: 565px;
+	top: 71px;
+	
+}
+.upperBorder {
+    height: 8px;
+    background: #62a644;
+    width: 626px;
+    top: 62px;
+    right: 371px;
+    position: absolute;
+}
+
+span.footerNumber {
+    margin-left: -5px;
+}
+.footerNote {
+    position: absolute;
+    top: 649px;
+    left: 48px;
+}
+/*Scroll bar start*/
+.assumScrollbarContent{
+    height: 505px;
+    width: 583px !important;
+    position: absolute;
+    overflow: hidden;
+    outline: none;
+}
+.vertical-track3 {
+    width: 11px;
+    background-color: #585858;
+    background: url(../img/specific/scrollBackground.png) no-repeat;
+    background-size: 100% 100%;
+    top: -38px;
+    -webkit-border-radius: 3px;
+    left: 21px;
+    height: 471px !important;
+}
+.vertical-handle3 {
+    width: 8px;
+}
+.vertical-handle3 .top{
+    position: absolute;
+}
+.vertical-handle3 .bottom {
+    width: 11px;
+    height: 100%;
+    position: absolute;
+    background-color: #62a644;
+    background: url(../img/specific/scrollThumb.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-border-radius: 10px;
+}
+.bottomScroll {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.enscroll-track.vertical-track3 {
+    top: -22px;
+    left: 21px;
+}
+/*Scroll bar end*/
+
+/****************base_test Start*****************/
+.basicHeight{
+    position: absolute;
+    top:10px;
+    min-height:20px;
+}
+.methodTitle {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+
+.contentMarkov {
+    position: absolute;
+    width: 100%;
+    top: 24px;
+}
+.titleMarkov {
+    position: absolute;
+    top: -2px;
+    left: 21px;
+}
+.listMarkov {
+    position: absolute;
+    top: 22px;
+    left: 44px;
+    line-height: 21px;
+}
+.listMarkov li{
+    list-style: none;
+    position: relative;
+}
+li.listMarkovContentSecond {
+    margin-top: 2.5px;
+    line-height: 18px;
+}
+.listMarkov ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.modelStructure {
+    position: absolute;
+    width: 100%;
+    top: 23px;
+}
+.modelStructureTitle {
+    position: absolute;
+    top: 107px;
+    left: 21px;
+}
+
+
+.methodFlowChartOne {
+    height: 308px;
+    position: absolute;
+    background-image: url(../img/specific/1_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 155px;
+    width: 548px;
+    left: 21px;
+    z-index: 10;
+}
+.methodFlowChartTwo {
+    height: 495px;
+    position: absolute;
+    background-image: url(../img/specific/2_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 410px;
+    width: 548px;
+    left: 21px;
+}
+.methodFlowChartThree {
+    height: 400px;
+    position: absolute;
+    background-image: url(../img/specific/3_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 819px;
+    width: 548px;
+    left: 21px;
+}
+
+.methodFlowChartNote {
+    position: absolute;
+    left: 25px;
+    top: 1114px;
+    
+}
+.methodAssumption {
+    width: 600px;   
+    position: absolute;
+    top: 1191px;
+    left: 21px;
+}
+.methodAssumptionList li{
+    list-style: none;
+    position: relative;
+}
+.methodAssumptionList ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.methodAssumptionList {
+    margin-left: 22px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+.dataSource {
+    position: absolute;
+    top: 1410px;
+    left: 21px;
+}
+.dataSource li{
+    list-style: none;
+    position: relative;
+}
+.dataSourceList {
+    margin-top: 0px;
+    margin-left: 22px;
+    
+}
+.dataSource ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+
+
+.outComeMeasure {
+    position: absolute;
+    top: 1458px;
+    left: 20px;
+}
+
+.outComeMeasureList li{
+    list-style: none;
+    position: relative;
+}
+.outComeMeasureList {
+    margin-left: 24px;
+    margin-top: 28px;
+    line-height: 23px;
+}
+.outComeMeasureList ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.outComeMeasureListSecond p {
+    margin-left: 56px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    line-height: 19px;
+}
+/*.outComeMeasureListSecond ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #023;
+    border-radius: 50%;
+}*/
+
+.postTime {
+    position: absolute;
+    top: 1634px;
+    left: 21px;
+}
+.postTime li{
+    list-style: none;
+    position: relative;
+}
+.postTimeList {
+    margin-left: 23px;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.postTime ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.postTimeListSecond p {
+    margin-left: 30px;
+    margin-top: 3px;
+    line-height: 17px;
+}
+
+/*.postTimeListSecond ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}*/
+.healthCarePay {
+    position: absolute;
+    top: 1748px;
+    left: 21px;
+}
+.healthCarePay li{
+    list-style: none;
+    position: relative;
+}
+.healthCarePaylist {
+    margin-left: 23px;
+    margin-top: 30px;
+}
+
+.healthCarePay ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+
+.methodButton {
+    position: relative;
+    top: 1842px;
+    display: flex;
+    height: 92px;
+    width: 571px;
+    /* justify-content: space-around; */
+    text-align: center;
+    left: 35px;
+}
+
+.methodBtnOneText {
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 19px;
+    font-size: 15px;
+}
+
+.methodBtnTwoText {
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 12px;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.methodBtnThreeText {
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 19px;
+    font-size: 15px;
+}
+
+
+.methodButtonOne {
+    position: relative;
+    background: #919191;
+    border-radius: 12px;
+    color: white;
+    height: 54px;
+    width: 165px;
+    left: 13px;
+    top: 2px;
+    /* z-index: 15; */
+}
+.methodButtonTwo {
+    background: #919191;
+    border-radius: 15px;
+    color: white;
+    height: 54px;
+    width: 166px;
+    position: relative;
+    top: 2px;
+    left: 26px;
+    
+}
+.methodButtonThree {
+    background: #919191;
+    border-radius: 15px;
+    color: white;
+    height: 54px;
+    width: 167px;
+    position: relative;
+    top: 2px;
+    left: 38px;
+
+}
+/* .methodButtonOne {
+    position: relative;
+    background: #919191;
+    border-radius: 15px;
+    color: white;
+    height: 26px;
+    margin-left: 50px;
+    width: 159px;
+    height: 47px;
+} */
+/* .methodButtonTwo {
+    padding: 18px 10px;
+    background: #919191;
+    border-radius: 15px;
+    color: white;
+    height: 26px;
+    margin-left: 14px;
+    width: 159px;
+    padding-top: 11px;
+    padding-bottom: 25px;
+}
+.methodButtonThree {
+    padding: 18px 10px;
+    background: #919191;
+    border-radius: 15px;
+    color: white;
+    height: 26px;
+    margin-left: 14px;
+    width: 159px;
+} */
+li.methodAssumptionListSeecond {
+    margin-top: 3px;
+}
+/*******model start***********/
+/* Scroll bar start*/
+.parameterModel .assumScrollbarContent {
+    height: 516px;
+    width: 900px !important;
+    position: absolute;
+    overflow: hidden;
+    outline: none;
+}
+/* .parameterModel .assumScrollbarContent{
+    height: 489px;
+    width: 900px !important;
+    position: absolute;
+    overflow: hidden;
+    outline: none;
+}
+.parameterModel .vertical-track4 {
+    width: 11px;
+    background-color: #585858;
+    background: url(../img/specific/scrollBackground.png) no-repeat;
+    background-size: 100% 100%;
+    top: -38px;
+    -webkit-border-radius: 3px;
+    left: 21px;
+    height: 471px !important;
+}
+.parameterModel .vertical-handle4 {
+    width: 8px;
+}
+.parameterModel .vertical-handle4 .top{
+    position: absolute;
+}
+.parameterModel .vertical-handle4 .bottom {
+    width: 11px;
+    height: 100%;
+    position: absolute;
+    background-color: #62a644;
+    background: url(../img/specific/scrollThumb.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-border-radius: 10px;
+}
+.parameterModel .bottomScroll {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.parameterModel .enscroll-track.vertical-track3 {
+    top: -22px;
+    left: 21px;
+} */
+/*Scroll bar end */
+.treatmentTitle {
+    position: absolute;
+    top: 52px;
+    left: 31px;
+}
+.treatmentFlowChart {
+    position: absolute;
+    background-image: url(../img/specific/model_1_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 805px;
+    height: 400px;
+    top: 106px;
+    left: 40px;
+}
+.treatmentFlowChartSecond {
+    position: absolute;
+    background-image: url(../img/specific/model_2_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 400px;
+    top: 339px;
+    left: 40px;
+}
+.treatmentFlowChartThird {
+    position: absolute;
+    background-image: url(../img/specific/model_3_3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 382px;
+    height: 499px;
+    top: 339px;
+    right: 81px;
+}
+.parameterModel {
+    position: absolute;
+    width: 800px;
+    top: 4px;
+    left: 2px;
+}
+.parameterTableTitle {
+    position: absolute;
+    top: 26px;
+    font-size: 14px;
+    left: 30px;
+}
+
+
+.parameterTitle {
+    position: absolute;
+    top: 48px;
+    left: 29px;
+    height: 41px;
+    z-index: 999;
+    background: white;
+    width: 800px;
+}
+.parameterTableImage {
+    position: absolute;
+    background-image: url(../img/specific/model_table_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 792px;
+    height: 428px;
+    top: 49px;
+    left: 33px;
+}
+.parameterTableImageTwo {
+    position: absolute;
+    background-image: url(../img/specific/model_table_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 793px;
+    height: 453px;
+    top: 413px;
+    left: 32px;
+}
+.parameterTableImageThree {
+    position: absolute;
+    background-image: url(../img/specific/model_table_3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 792px;
+    height: 460px;
+    top: 798px;
+    left: 31px;
+}
+.parameterTableImageFour {
+    position: absolute;
+    background-image: url(../img/specific/model_table_4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 792px;
+    height: 460px;
+    top: 1124px;
+    left: 32px;
+}
+
+.parameterTableList {
+    position: absolute;
+    top: 812px;
+    left: 54px;
+    font-size: 14px;
+    line-height: 19PX;
+    min-height: 251px;
+}
+/*.flowChartTreatmentList {
+    position: absolute;
+    top: 509px;
+    left: 48px;
+}
+*/
+
+.flowChartTreatmentList {
+    position: absolute;
+    top: 507px;
+    left: 24px;
+}
+
+.flowChartTreatmentList li{
+    list-style: none;
+    position: relative;
+}
+
+.flowChartTreatmentList ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 8px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.sensitivityModel {
+    position: absolute;
+    top: 48px;
+    left: 30px;
+    width: 842px;
+}
+
+.sensitivityContent {
+    width: 800px;
+    position: absolute;
+    font-size: 14px;
+    top: 28px;
+    line-height: 19px;
+    left: 17px;
+}
+
+.sensitivityContent li {
+    position: relative;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.sensitivityContent ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -17px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+
+/*popup scroll*/
+.vertical-track4 {
+    width: 11px;
+    background-color: #585858;
+    background: url(../img/specific/scrollBackground.png) no-repeat;
+    background-size: 100% 100%;
+    top: -38px;
+    -webkit-border-radius: 3px;
+    left: -18px;
+    top: 10px;
+    height: 480px !important;
+}
+.vertical-handle4 {
+    width: 8px;
+}
+.vertical-handle4 .top{
+    position: absolute;
+}
+.vertical-handle4 .bottom {
+    width: 11px;
+    height: 100%;
+    position: absolute;
+    background-color: #62a644;
+    background: url(../img/specific/scrollThumb.png) no-repeat;
+    background-size: 100% 100%;
+    -webkit-border-radius: 10px;
+}
+/*.bottomScroll {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.enscroll-track.vertical-track4 {
+    top: -22px;
+    left: 21px;
+}*/
+
+/*********table one start*********/
+
+.parameterTableRowOne {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.parameterTableRowOne .colOne {
+    position: absolute;
+    top: 19px;
+    left: 39px;
+}
+.parameterTableRowOne .coltwo {
+    position: absolute;
+    top: 19px;
+    left: 137px;
+}
+.parameterTableRowOne .colThree {
+    position: absolute;
+    top: 15px;
+    left: 198px;
+    
+}
+.parameterTableRowOne .colFour {
+    position: absolute;
+    top: 7px;
+    left: 302px;
+}
+.parameterTableRowOne .colFive {
+    position: absolute;
+    top: 14px;
+    left: 423px;
+}
+.parameterTableRowOne .colSix {
+    position: absolute;
+    top: 7px;
+    left: 538px;
+    
+}
+.parameterTableRowOne .colSeven {
+    position: absolute;
+    top: 15px;
+    left: 663px;
+}
+/************Row Two ***********/
+.parameterTableRowTwo {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    top: 60px;
+    left: 0px;
+    
+}
+.parameterTableRowTwo .colOne {
+    position: absolute;
+    top: 13px;
+    left: 6px;
+}
+.parameterTableRowTwo .coltwo {
+    position: absolute;
+    top: 13px;
+    left: 146px;
+}
+.parameterTableRowTwo .colThree {
+    position: absolute;
+    top: 13px;
+    left: 225px;
+    
+}
+.parameterTableRowTwo .colFour {
+    position: absolute;
+    top: 13px;
+    left: 336px;
+    
+}
+.parameterTableRowTwo .colFive {
+    position: absolute;
+    top: 13px;
+    left: 451px;
+}
+.parameterTableRowTwo .colSix {
+    position: absolute;
+    top: 14px;
+    left: 544px;
+}
+.parameterTableRowTwo .colSeven {
+    position: absolute;
+    top: 14px;
+    left: 663px;
+}
+/****************** Table Row Three *****************/
+
+.parameterTableRowThree {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    top: 113px;
+    left: 1px;
+}
+.parameterTableRowThree .colOne {
+    position: absolute;
+    top: 12px;
+    left: 6px;
+}
+.parameterTableRowThree .coltwo {
+    position: absolute;
+    top: 12px;
+    left: 144px;
+}
+.parameterTableRowThree .colThree {
+    position: absolute;
+    top: 14px;
+    left: 224px;
+    
+}
+.parameterTableRowThree .colFour {
+    position: absolute;
+    top: 14px;
+    left: 335px;
+}
+.parameterTableRowThree .colFive {
+    position: absolute;
+    top: 14px;
+    left: 450px;
+    }
+.parameterTableRowThree .colSix {
+    position: absolute;
+    top: 15px;
+    left: 547px;
+    }
+.parameterTableRowThree .colSeven {
+    position: absolute;
+    top: 15px;
+    left: 662px;
+    }
+/****************** Table Row Four *****************/
+
+.parameterTableRowFour {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    top: 168px;
+    left: 0px;
+}
+.parameterTableRowFour .colOne {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+.parameterTableRowFour .coltwo {
+    position: absolute;
+    top: 13px;
+    left: 139px;
+    }
+.parameterTableRowFour .colThree {
+    position: absolute;
+    top: 13px;
+    left: 226px;
+    }
+.parameterTableRowFour .colFour {
+    position: absolute;
+    top: 13px;
+    left: 337px;
+    }
+.parameterTableRowFour .colFive {
+    position: absolute;
+    top: 13px;
+    left: 451px;
+    }
+.parameterTableRowFour .colSix {
+    position: absolute;
+    top: 14px;
+    left: 545px;
+}
+.parameterTableRowFour .colSeven {
+    position: absolute;
+    top: 14px;
+    left: 655px;
+}
+
+/****************** Table Row Five *****************/
+
+.parameterTableRowFive {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    top: 222px;
+    left: 0px;
+}
+.parameterTableRowFive .colOne {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+.parameterTableRowFive .coltwo {
+    position: absolute;
+    top: 13px;
+    left: 145px;
+}
+.parameterTableRowFive .colThree {
+    position: absolute;
+    top: 13px;
+    left: 217px;
+}
+.parameterTableRowFive .colFour {
+    position: absolute;
+    top: 13px;
+    left: 332px;
+}
+.parameterTableRowFive .colFive {
+    position: absolute;
+    top: 13px;
+    left: 451px;
+}
+.parameterTableRowFive .colSix {
+    position: absolute;
+    top: 14px;
+    left: 537px;
+}
+.parameterTableRowFive .colSeven {
+    position: absolute;
+    top: 14px;
+    left: 645px;
+}
+/****************** Table Row Six *****************/
+
+.parameterTableRowSix {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    top: 276px;
+    left: 0px;
+}
+.parameterTableRowSix .colOne {
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+.parameterTableRowSix .coltwo {
+    position: absolute;
+    top: 13px;
+    left: 146px;
+}
+.parameterTableRowSix .colThree {
+    position: absolute;
+    top: 13px;
+    left: 225px;
+}
+.parameterTableRowSix .colFour {
+    position: absolute;
+    top: 13px;
+    left: 335px;
+}
+.parameterTableRowSix .colFive {
+    position: absolute;
+    top: 13px;
+    left: 451px;
+}
+.parameterTableRowSix .colSix {
+    position: absolute;
+    top: 14px;
+    left: 544px;
+}
+.parameterTableRowSix .colSeven {
+    position: absolute;
+    top: 14px;
+    left: 659px;
+}
+
+
+.parameterTableTwoTitle {
+    position: absolute;
+    top: 391px;
+    left: 35px;
+}
+
+
+
+/******************************** Second Table Start ***************************************************/
+
+/***************** row One *******************/
+.parameterTableTwoRowOne {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.parameterTableTwoRowOne .colOne {
+    position: absolute;
+    top: 19px;
+    left: 108px;
+}
+.parameterTableTwoRowOne .coltwo {
+    position: absolute;
+    top: 19px;
+    left: 295px;
+}
+.parameterTableTwoRowOne .colThree {
+    position: absolute;
+    top: 19px;
+    left: 439px;
+}
+.parameterTableTwoRowOne .colFour {
+    position: absolute;
+    top: 19px;
+    left: 669px;
+}
+.btnsp{
+    position: absolute;
+    top: 8px;    
+}
+.btnspOne{
+    position: absolute;
+    top: 11px;    
+}
+.btnspTwo{
+    position: absolute;
+    top: 14px;    
+}
+.btnspnew{
+    position: absolute;
+    top: 6px;    
+}
+.btnli{
+    position: absolute;
+    top: 4px; 
+}
+/***************** row Two *******************/
+.parameterTableTwoRowTwo {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 45px;
+    left: 0px;
+}
+.parameterTableTwoRowTwo .colOne {
+    position: absolute;
+    top: 28px;
+    left: 8px;
+}
+.parameterTableTwoRowTwo .coltwo {
+    position: absolute;
+    top: 28px;
+    left: 286px;
+}
+.parameterTableTwoRowTwo .colThree {
+    position: absolute;
+    top: 28px;
+    left: 446px;
+}
+.parameterTableTwoRowTwo .colFour {
+    position: absolute;
+    top: 28px;
+    left: 641px;
+}
+
+/***************** row Three *******************/
+.parameterTableTwoRowThree {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 96px;
+    left: 0px;
+}
+.parameterTableTwoRowThree .colOne {
+    position: absolute;
+    top: 32px;
+    left: 9px;
+    font-size: 12px;
+}
+.parameterTableTwoRowThree .coltwo {
+    position: absolute;
+    top: 31px;
+    left: 289px;
+    font-size: 13px;
+}
+.parameterTableTwoRowThree .colThree {
+    position: absolute;
+    top: 34px;
+    left: 447px;
+    line-height: 16px;
+    font-size: 13px;
+}
+.parameterTableTwoRowThree .colFour {
+    position: absolute;
+    top: 29px;
+    left: 643px;
+    line-height: 16px;
+}
+
+/***************** row Four *******************/
+.parameterTableTwoRowFour {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 152px;
+    left: 0px;
+}
+.parameterTableTwoRowFour .colOne {
+    position: absolute;
+    top: 30px;
+    left: 9px;
+    font-size: 12px;
+}
+.parameterTableTwoRowFOur .coltwo {
+    position: absolute;
+    top: 26px;
+    left: 287px;
+}
+.parameterTableTwoRowFour .colThree {
+    position: absolute;
+    top: 33px;
+    left: 452px;
+    line-height: 16px;
+    font-size: 13px;
+}
+.parameterTableTwoRowFour .colFour {
+    position: absolute;
+    top: 32px;
+    left: 645px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+/***************** row Five *******************/
+.parameterTableTwoRowFive {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 209px;
+    left: 0px;
+}
+.parameterTableTwoRowFive .colOne {
+    position: absolute;
+    top: 27px;
+    left: 9px;
+    font-size: 12px;
+}
+.parameterTableTwoRowFive .coltwo {
+    position: absolute;
+    top: 26px;
+    left: 287px;
+}
+.parameterTableTwoRowFive .colThree {
+    position: absolute;
+    top: 30px;
+    left: 448px;
+    line-height: 16px;
+    font-size: 13px;
+}
+.parameterTableTwoRowFive .colFour {
+    position: absolute;
+    top: 29px;
+    left: 633px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+/***************** row Six *******************/
+.parameterTableTwoRowSix {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 262px;
+    left: 0px;
+}
+.parameterTableTwoRowSix .colOne {
+    position: absolute;
+    top: 29px;
+    left: 9px;
+    font-size: 12px;
+}
+.parameterTableTwoRowSix .coltwo {
+    position: absolute;
+    top: 27px;
+    left: 288px;
+    font-size: 13px;
+}
+.parameterTableTwoRowSix .colThree {
+    position: absolute;
+    top: 31px;
+    left: 448px;
+    line-height: 16px;
+    font-size: 13px;
+}
+.parameterTableTwoRowSix .colFour {
+    position: absolute;
+    top: 29px;
+    left: 643px;
+    line-height: 16px;
+}
+
+
+/***************** row Seven *******************/
+.parameterTableTwoRowSeven {
+    position: absolute;
+    width: 781px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    top: 316px;
+    left: 0px;
+}
+.parameterTableTwoRowSeven .colOne {
+    position: absolute;
+    top: 28px;
+    left: 9px;
+    font-size: 12px;
+}
+.parameterTableTwoRowSeven .coltwo {
+    position: absolute;
+    top: 26px;
+    left: 287px;
+}
+.parameterTableTwoRowSeven .colThree {
+    position: absolute;
+    top: 31px;
+    left: 442px;
+    line-height: 16px;
+    font-size: 13px;
+}
+.parameterTableTwoRowSeven .colFour {
+    position: absolute;
+    top: 31px;
+    left: 625px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.lineList1 {
+    width: 8px;
+    background: black;
+    height: 1px;
+    position: absolute;
+    left: 32px;
+    top: 83px;
+}
+
+.lineList2 {
+    width: 9px;
+    background: black;
+    height: 1px;
+    position: absolute;
+    left: 32px;
+    top: 123px;
+}
+
+.lineList3 {
+    width: 9px;
+    background: black;
+    height: 1px;
+    position: absolute;
+    left: 32px;
+    top: 162px;
+}
+
+
+.lineList4 {
+    width: 10px;
+    background: black;
+    height: 1px;
+    position: absolute;
+    left: 8px;
+    top: 50px;
+}
+
+.outComeMeasureTitle {
+    position: absolute;
+    top: 5px;
+    left:1px;
+}
+
+.postTimeTitle {
+    position: absolute;
+    top: 7px;
+}
+
+.healthCarePayTitle {
+    position: absolute;
+    top: 5px;
+}
+.parameterTableList li {
+    margin-top: 10px;
+    list-style: none;
+    position: relative;
+    left: -2px;
+    padding-left: 2px;
+}
+.parameterTableList ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.TreatmentList {
+    position: absolute;
+    top: 511px;
+    left: 49px;
+}
+
+.TreatmentList li{
+    list-style: none;
+    position: relative;
+}
+
+.TreatmentList ul li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.avModalOverlay {
+    opacity: 0.8!important;
+    }
