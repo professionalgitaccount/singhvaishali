@@ -1,0 +1,74 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+section#contentWrapper {
+    background: #e0e4e7;
+}
+.homeHorizontal{
+	position: absolute;
+    height: 534px;
+    background-color: #62a644;
+    width: 3px;
+    left: 662px;
+    top: 96px;
+}
+.titleHome{
+    position: absolute;
+    top: 79px;
+    left: 28px;
+}
+
+.homeHrFirst{
+    width: 508px;
+    position: absolute;
+    top: 295px;
+    left: 80px;
+    background-color: #62a644;
+}
+
+.titleDescription{
+    top: 221px;
+    position: absolute;
+    left: 28px
+}
+
+.homeIndication{
+    top: 340px;
+    position: absolute;
+    left: 27px
+}
+
+.homeIndicationContentOne{
+    top: 363px;
+    position: absolute;
+    left: 27px;
+}
+
+.homeIndicationContentTwo{
+    top: 414px;
+    position: absolute;
+    left: 27px;
+}
+.homeHrSecond{
+    width: 508px;
+    position: absolute;
+    top: 517px;
+    left: 80px;
+    background-color: #62a644;
+}
+.homeEndNoteOne{
+    top: 589px;
+    position: absolute;
+    left: 23px;
+}
+.homeEndNoteTwo{
+	top: 612px;
+    position: absolute;
+    left: 26px;
+}
