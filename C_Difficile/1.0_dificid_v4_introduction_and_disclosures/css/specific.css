@@ -1,0 +1,199 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+.title{
+	position: absolute;
+	top: 65px;
+}
+/******/
+/******/
+section#contentWrapper {
+    background: #e0e4e7;
+}
+/******/
+/******/
+
+.introContainer{
+	position: absolute;
+	top: 61px;
+	background: #ffffff;
+    width: 626px;
+    margin-left: 27px;
+	height: 573px;
+	top: 71px;
+	
+}
+.upperBorder{
+	height: 10px;
+    background: #62a644;
+    width: 626px;
+    top: 61px;
+    right: 371px;
+    position: absolute;
+}
+
+
+
+/****************base_test Start*****************/
+
+.introTitle {
+    top: 17px;
+    position: absolute;
+    right: 101px;
+}
+.titleContentFirst {
+    position: absolute;
+    top: 95px;
+    left: 21px;
+}
+.contentFirst {
+    position: absolute;
+    top: 121px;
+    left: 21px;
+}
+.quoteOne{
+	text-align: center;
+    position: absolute;
+    top: 178px;
+    left: 86.1875px;
+    width: 444px;
+}
+
+.greenLineOne {
+    position: absolute;
+	height: 2px;
+    background: #62a644;
+    width: 98px;
+    top: 172px;
+    right: 263.84375px;
+}
+.greenLineTwo {
+    position: absolute;
+	height: 2px;
+    background: #62a644;
+    width: 98px;
+    top: 223px;
+   left:263.84375px;
+}
+
+.contentAfterQuoteOne {
+    position: absolute;
+    top: 249px;
+    right: 63px;
+    line-height: 18px;
+}
+.quoteTwo {
+    position: absolute;
+    top: 305px;
+    left: 95px;
+}
+.greenLineThree {
+    position: absolute;
+	height: 2px;
+    background: #62a644;
+    width: 98px;
+    top: 296px;
+    left:263.84375px;
+}
+.greenLineFour {
+    position: absolute;
+	height: 2px;
+    background: #62a644;
+    width: 98px;
+    top: 331px;
+    left:263.84375px;
+}
+.contentTitleSecond {
+    position: absolute;
+    top: 357px;
+    left: 22px;
+}
+.contentListSecond {
+    position: absolute;
+    top: 383px;
+    left: 37px;
+    line-height: 18px;
+}
+.contentListSecond li{
+    list-style-type: none;
+    position: relative;
+}
+.contentListSecond li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -16px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.contentTitleThird {
+    position: absolute;
+    top: 429px;
+    left: 22px;
+}
+
+.contentListThird {
+	position: absolute;
+    top: 453px;
+    left: 39px;
+    line-height: 18px;
+}
+
+.contentListThird li{
+    list-style-type: none;
+    position: relative;
+}
+.contentListThird li:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    background: #585858;
+    border-radius: 50%;
+}
+.footerNote {
+    position: absolute;
+    top: 649px;
+    left: 48px;
+}
+.lstOne {
+    position: absolute;
+    left: 2px;
+    top: 18px;
+}
+.introTitleSecondLine {
+    position: absolute;
+    left: 2px;
+    top: 36px;
+}
+
+.contentListThird ul li {
+   
+    margin-bottom: 6px;
+    line-height: 18px;
+}
+
+span.footerNumber {
+    margin-left: -5px;
+}
+li.listSecondItem1 {
+    margin-top: 2px;
+}
+li.listSecondItem2 {
+    margin-top: -2px;
+}
+li.listSecondItem3 {
+    margin-top: 8px;
+}
