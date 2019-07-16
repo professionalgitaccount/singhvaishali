@@ -1,0 +1,297 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+.title{
+    position: absolute;
+    top: 32px;
+}
+
+.homeHR{
+    width: 50px;
+}
+
+.conclusion{
+    position:absolute;
+    left:20px;
+}
+
+/*white box global content start*/
+.bgWhiteBox{
+    position: absolute;
+    background-color: #ffffff;
+    height: 560px;
+    width: 626px;
+    top: 62px;
+    left: 27px;
+}
+.upperLine{
+    position: absolute;
+    background-color: #8D334D;
+    height: 8px;
+    width: 634px;
+    top: 0px;
+    left: 0px;
+}
+.headerAssumption{
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    width: 608px;
+    letter-spacing: 0.01px;
+}
+/*white box global content end*/
+.overlay{
+    height:54px;
+    z-index: 10
+}
+.optimal{
+    position: absolute;
+    top: 11px;
+    left: 21px;
+    z-index:2;
+}
+.fidaxomicin{
+    position: absolute;
+    top: 53px;
+    left: 180px;
+}
+.Vancomycin{
+    position: absolute;
+    top: 92px;
+    left: 216px;
+}
+.recurrence{
+    position: absolute;
+    top: 131px;
+    left: 203px;
+}
+.fecal{
+    position: absolute;
+    top: 170px;
+    left: 102px;
+}
+
+.border{
+    background-color: #62a644;
+    width: 98px;
+    height: 2px;
+    position: relative;
+    top: 121px;
+    left: 259px;
+}
+.borderOne{
+    background-color: #62a644;
+    width: 100px;
+    height: 2px;
+    position: relative;
+    top: 158px;
+    left: 259px;
+}
+.borderTwo{
+    background-color: #62a644;
+    width: 98px;
+    height: 2px;
+    position: relative;
+    top: 78px;
+    left: 259px;
+}
+.results{
+    position: absolute;
+    top: 210px;
+    list-style-type: disc;
+    left: 44px;
+   
+    line-height: 20px;
+}
+
+.Metronidazole{
+    position: absolute;
+    top:379px;
+    list-style-type: disc;
+    left: 44px;
+  
+
+}
+.limitations{
+    position: absolute;
+    width: 552px;
+    top: 215px;
+    left: 27px;
+    list-style-type: none;
+}
+.limitations li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 19px 17px;
+}
+.limitations li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: 3px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+.Metronidazolenew{
+    position: absolute;
+    top: 114px;
+    left: 0px;
+}
+.MetronidazoleOne{
+    position: absolute;
+    top: 115px;
+    left: 0px;
+}
+.effective li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 7px 18px;
+}
+.bulletnew{
+   position: absolute;
+   left: -2px;
+   top: 1px; 
+}
+.topspace{
+    position: absolute;
+    top: 20px;
+}
+.effective{
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    line-height: 17px;
+}
+.footerNote {
+    position: absolute;
+    top: 578px;
+    left: 20px;
+}
+
+span.footerNumber {
+    margin-left: -5px;
+}
+
+.prominent{
+    position: absolute;
+    top:435px;
+    list-style-type: disc;
+    left: 44px;
+   
+}
+.averted{
+    position: relative;
+    top: 4px;
+    left: 19px;
+    line-height: 25px;
+}
+.innerAdverted{
+    position: relative;
+    top: 0px;
+    right: 9px;
+    line-height: 25px;
+}
+/*Scroll bar start*/
+.assumScrollbarContent{
+    /*height: 414px;*/
+    height:480px;
+    width: 583px !important;
+    position: absolute;
+    overflow: hidden;
+    outline: none;
+}
+.vertical-track3 {
+    width: 11px;
+    background: url(../img/specific/greyScroll.png) no-repeat;
+    background-size: 100% 100%;
+    top: -12px;
+    -webkit-border-radius: 3px;
+    /*left: 21px;*/
+    left: 22px;
+    height: 464px !important;
+}
+.vertical-handle3 {
+    width: 14px;
+}
+.vertical-handle3 .top{
+    position: absolute;
+}
+.vertical-handle3 .bottom {
+    width: 11px;
+    height: 100%;
+    position: absolute;
+    background: url(../img/specific/scrollThumb.png) no-repeat;*/
+    /*background-color: #62A644*/
+    /*background-size: 100% 100%;*/
+    -webkit-border-radius: 10px;
+    background-size: 100% 100%;
+    top: 0px;
+}
+.bottomScroll{
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+/*Scroll bar end*/
+
+
+.upperborder{
+    background-color:#62A644;
+    position: absolute;
+    top:0px;
+    height:8px;
+    width:626px;
+
+}
+
+@media (orientation: landscape){
+#contentWrapper {
+    min-height: 680px;
+    overflow: hidden;
+    position: relative;
+    background-color: #e0e4e7;
+}
+
+/*conclusion second part*/
+.limit{
+    position: absolute;
+    top: 492px;
+    left: 21px;
+    z-index:2;
+}
+
+.second{
+    position: absolute;
+    width: 566px;
+    top: 519px;
+    left: 22px;
+    list-style-type: none;
+}
+.second li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 7px 18px;
+}
+.second li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+
+/*conclusion second part*/
+ 
