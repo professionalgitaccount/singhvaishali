@@ -1,0 +1,977 @@
+/*********************Please use proper comments**************************
+1. Ensure you name the classes with camelCase Naming Convention.
+2. Ensure class names are relevant to the elements being used.
+3. Do not specify fonts, font-sizes, line-heights unless necessary. Use the fonts used in the main.css
+4. Explicitly use line-heights and font-sizes for the text contents.
+5. Try to create classes that can be re-used throughout the slide in order to minimise the size of css
+6. Use proper indentation
+7. Try to arrange the classes used as per the HTML element arrangement
+*********************Please use proper comments**************************/
+
+
+.homeHR{
+    width: 50px;
+}
+
+.conclusion{
+    position:absolute;
+    left: 21px;
+    top:32px;
+}
+
+/*white box global content start*/
+.bgWhiteBox{
+    position: absolute;
+    background-color: #ffffff;
+    height: 566px;
+    width: 626px;
+    top: 62px;
+    left: 27px;
+}
+.upperLine{
+    position: absolute;
+    background-color: #8D334D;
+    height: 8px;
+    width: 634px;
+    top: 0px;
+    left: 0px;
+}
+.headerAssumption{
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    width: 608px;
+    letter-spacing: 0.01px;
+}
+/*white box global content end*/
+.overlay{
+    height:54px;
+    z-index: 10
+}
+.optimal{
+    position: relative;
+    top: 3px;
+    left: 21px;
+}
+.result00 {
+    position: relative;
+    top: 33px;
+    left: 181px;
+    width: 275px;
+}
+.result01 {
+    position: relative;
+    top: 47px;
+    left: 217px;
+    width: 290px;
+}
+.result02{
+    position: relative;
+    top: 61px;
+    left: 205px;
+}
+.result03{
+    position: relative;
+    top: 75px;
+    left: 103px;
+}
+
+.borderFour{
+    background-color: #62a644;
+    width: 98px;
+    height: 2px;
+    position: relative;
+    top: 39px;
+    left: 259px;
+}
+.borderFive{
+    background-color: #62a644;
+    width: 98px;
+    height: 2px;
+    position: relative;
+    top: 52px;
+    left: 259px;
+}
+.borderSix{
+    background-color: #62a644;
+    width: 98px;
+    height: 2px;
+    position: relative;
+    top: 66px;
+    left: 259px;
+}
+.results{
+    position: absolute;
+    top: 210px;
+    list-style-type: disc;
+    left: 44px;
+   
+    line-height: 20px;
+}
+
+.Metronidazole{
+    position: absolute;
+    top:379px;
+    list-style-type: disc;
+    left: 44px;
+}
+.Metronidazole{
+    position: absolute;
+    top:379px;
+    list-style-type: disc;
+    left: 44px;
+}
+.results{
+   position: relative;
+   width: 578px;
+   top: 101px;
+   left: 27px;
+   list-style-type: none;
+   text-indent: -0.9px;
+   line-height: 18px;
+}
+.results li {
+   list-style-type: none;
+   position: relative;
+   margin: 0px 0 7px 17px;
+}
+
+.results li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -21px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+.effective li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 7px 18px;
+}
+
+
+.prominent{
+    position: absolute;
+    top:435px;
+    list-style-type: disc;
+    left: 44px;
+   
+}
+.averted{
+    position: relative;
+    top: 4px;
+    left: 18px;
+    line-height: 25px;
+}
+.innerAdverted{
+    position: relative;
+    top: 0px;
+    right: 9px;
+    line-height: 25px;
+}
+/*Scroll bar start*/
+.assumScrollbarContent{
+    /*height: 414px;*/
+    height: 498px;
+    width: 583px !important;
+    position: absolute;
+    overflow: hidden;
+    outline: none;
+}
+.vertical-track3 {
+    width: 11px;
+    background: url(../img/specific/greyScroll.png) no-repeat;
+    background-size: 100% 100%;
+    top: -22px;
+    -webkit-border-radius: 3px;
+    left: 21px;
+    height: 472px !important;
+}
+.vertical-handle3 {
+    width: 14px;
+}
+.vertical-handle3 .top{
+    position: absolute;
+}
+.vertical-handle3 .bottom {
+    width: 11px;
+    height: 100%;
+    position: absolute;
+    background: url(../img/specific/scrollThumb.png) no-repeat;*/
+    /*background-color: #62A644*/
+    /*background-size: 100% 100%;*/
+    -webkit-border-radius: 10px;
+    background-size: 100% 100%;
+    top: 0px;
+}
+.bottomScroll{
+    position: absolute;
+    top: 68px;
+    left: 0;
+}
+/*Scroll bar end*/
+
+
+.upperborder{
+    background-color:#62A644;
+    position: absolute;
+    top:0px;
+    height:8px;
+    width:626px;
+
+}
+.way{
+        position: absolute;
+        top: 77px;
+        left: 30px;
+        line-height: 19px;
+}
+ .avModalOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #585858;
+    opacity: 0.8 !important;
+}
+
+@media (orientation: landscape){
+#contentWrapper {
+    min-height: 680px;
+    overflow: hidden;
+    position: relative;
+    background-color: #e0e4e7;
+
+}
+
+/*conclusion second part*/
+.limitOne{
+    position: relative;
+    top: 130px;
+    left: 21px;
+    z-index:2;
+}
+
+.second{
+    position: absolute;
+    width: 566px;
+    top: 519px;
+    left: 22px;
+    list-style-type: none;
+}
+.second li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 7px 18px;
+}
+.second li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 9px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+
+/*conclusion second part*/
+ 
+ /*image*/
+ .table
+ {
+    background: url(../img/specific/tableLayout.png)repeat;
+    top: 134px;
+    right: 38px;
+    background-size: 100% 100%;
+    width: 554px;
+    height: 540px;
+    position: relative;
+    left:21px;
+ } 
+
+ .content{
+    position:absolute;
+ }
+ .strategy{
+    color: #fff;
+    top: 40px;
+    position: relative;
+    left: 10px;
+    width: 108px;
+    float: left;
+ }
+ .least{
+    left: 18px;
+    top: 15px;
+    position: relative;
+    line-height: 14px;
+    float: left;
+ }
+ .one{
+    left: 42px;
+    top: 10px;
+    position: relative;
+    float: left;
+ }
+ .twentyfive{
+     left: 106px;
+     top: 10px;
+     position: relative;
+     float: left;
+ }
+ .most{
+     left: 164px;
+     top: 15px;
+     position: relative;
+     float: left;
+ }
+ .fourtythree{
+     left: 198px;
+     top: 15px;
+     position: relative;
+     float: left;
+ }
+ .fourtyfour{
+     left: 222px;
+     top: 15px;
+     position: relative;
+     float: left;
+ }
+ .strategy00{
+    color: #fff;
+    top: 18px;
+    left: 32px;
+    position: relative;
+    float: left;
+    width: 86px;
+ }
+ .least00{
+    left: 37px;
+    top: 23px;
+    position: relative;
+    float: left;
+ }
+ .one00{
+    left: 50px;
+    top: 17px;
+    position: relative;
+    float: left;
+ }
+ .twentyfive00{
+     left: 69px;
+     top: 17px;
+     position: relative;
+     float: left;
+ }
+ .most00{
+     left: 86px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .fourtythree00{
+     left: 104px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .fourtyfour00{
+     left: 120px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .strategyA{
+    color: #fff;
+    top: -50px;
+    left: 14px;
+    position: relative;
+ }
+ .leastB{
+    left: 122px;
+    top: -61px;
+    position: relative;
+ }
+ .oneC{
+    left: 197px;
+    top: -77px;
+    position: relative;
+ }
+ .twentyfiveD{
+     left: 269px;
+     top: -99px;
+     position: relative;
+ }
+ .mostE{
+     left: 343px;
+     top: -117px;
+     position: relative;
+ }
+ .fourtythreeF{
+     left: 414px;
+     top: -129px;
+     position: relative;
+ }
+ .fourtyfourG{
+     left: 485px;
+     top: -140px;
+     position: relative;
+ }
+
+ /*third row content*/
+ .severeZero{
+    color: #fff;
+    top: 19px;
+    left: 43px;
+    position: relative;
+    float: left;
+ }
+ .severeOne{
+    left: 96px;
+    top: 24px;
+    position: relative;
+    float: left;
+ }
+ .severeTwo{
+    left: 113px;
+    top: 18px;
+    position: relative;
+    float: left;
+ }
+ .severeThree{
+     left: 132px;
+     top: 18px;
+     position: relative;
+     float: left;
+ }
+ .severeFour{
+     left: 149px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ .severeFive{
+     left: 167px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ .severeSix{
+     left: 183px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ /*third row content*/
+ /*fourth row content*/
+ .reccurenceZero{
+    color: #fff;
+    top: 18px;
+    left: 20px;
+    position: relative;
+    float: left;
+ }
+ .reccurenceOne{
+    left: 50px;
+    top: 23px;
+    position: relative;
+    float: left;
+ }
+ .reccurenceTwo{
+    left: 68px;
+    top: 17px;
+    position: relative;
+    float: left;
+ }
+ .reccurenceThree{
+     left: 87px;
+     top: 16px;
+     position: relative;
+     float: left;
+ }
+ .reccurenceFour{
+     left: 104px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .reccurenceFive{
+     left: 123px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .reccurenceSix{
+     left: 138px;
+     top: 22px;
+     position: relative;
+     float: left;
+ }
+ 
+ /*fourth row content*/
+ .plusZero{
+    color: #fff;
+    top: 17px;
+    left: 10px;
+    position: relative;
+    float: left;
+ }
+ .plusOne{
+    left: 29px;
+    top: 24px;
+    position: relative;
+    float: left;
+ }
+ .plusTwo{
+    left: 47px;
+    top: 19px;
+    position: relative;
+    float: left;
+ }
+ .plusThree{
+     left: 66px;
+     top: 12px;
+     position: relative;
+     float: left;
+ }
+  .plusThreeone{
+     left: 9px;
+     top: 25px;
+     position: relative;
+     float: left;
+ }
+ .plusFour{
+     left: 39px;
+     top: 25px;
+     position: relative;
+     float: left;
+ }
+ .plusFive{
+     left: 91px;
+     top: 25px;
+     position: relative;
+     float: left;
+ }
+ .plusSix{
+     left: 142px;
+     top: 25px;
+     position: relative;
+ }
+
+ /*fifth row content*/
+ .costZero{
+    color: #fff;
+    top: 18px;
+    left: 35px;
+    position: relative;
+    float: left;
+ }
+ .costOne{
+    left: 86px;
+    top: 24px;
+    position: relative;
+    float: left;
+ }
+ .costTwo{
+    left: 120px;
+    top: 18px;
+    position: relative;
+    float: left;
+ }
+ .costThree{
+     left: 159px;
+     top: 18px;
+     position: relative;
+     float: left;
+ }
+ .costFour{
+     left: 195px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ .costFive{
+     left: 230px;
+     top: 24px;
+     float: left;
+     position: relative;
+ }
+ .costSix{
+     left: 267px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+
+ /*fifth row content*/
+
+ /*sixth row content*/
+  .effectivenessZero{
+    color: #fff;
+    top: 18px;
+    left: 8px;
+    position: relative;
+    float: left;
+ }
+ .effectivenessOne{
+    left: 37px;
+    top: 23px;
+    position: relative;
+    float: left;
+ }
+ .effectivenessTwo{
+    left: 78px;
+    top: 17px;
+    position: relative;
+    float: left;
+ }
+ .effectivenessThree{
+     left: 121px;
+     top: 17px;
+     position: relative;
+     float: left;
+ }
+ .effectivenessFour{
+     left: 162px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .effectivenessFive{
+     left: 204px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ .effectivenessSix{
+     left: 245px;
+     top: 23px;
+     position: relative;
+     float: left;
+ }
+ /*sixth row content*/
+
+ /*seventh row content*/
+ .incrementalZero{
+    color: #fff;
+    top: 15px;
+    left: 4px;
+    position: relative;
+    width: 110px;
+    line-height: 16px;
+    float: left;
+    text-align: center;
+ }
+ .incrementalOne{
+    left: 40px;
+    top: 10px;
+    position: relative;
+    float: left;
+    z-index: 22;
+ }
+ .incrementalTwo{
+    left: 105px;
+    top: 18px;
+    position: relative;
+    float: left;
+ }
+ .incrementalThree{
+     left: 153px;
+     top: 18px;
+     position: relative;
+     float: left;
+ }
+ .incrementalFour{
+     left: 199px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ .incrementalFive{
+     left: 247px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ .incrementalSix{
+     left: 293px;
+     top: 24px;
+     position: relative;
+     float: left;
+ }
+ /*seventh row content*/
+
+ /*eight row content*/
+  .icerZero{
+    color: #fff;
+    top: 18px;
+    left: 26px;
+    position: relative;
+    float: left;
+ }
+ .icerOne{
+    left: 81px;
+    top: 22px;
+    position: relative;
+    float: left;
+ }
+ .icerTwo{
+    left: 133px;
+    top: 16px;
+    position: relative;
+    float: left;
+ }
+ .icerThree{
+     left: 181px;
+     top: 16px;
+     position: relative;
+     float: left;
+ }
+ .icerFour{
+     left: 225px;
+     top: 22px;
+     position: relative;
+     float: left;
+ }
+ .icerFive{
+     left: 267px;
+     top: 22px;
+     position: relative;
+     float: left;
+ }
+ .icerSix{
+     left: 308px;
+     top: 22px;
+     position: relative;
+     float: left;
+ }
+ /*eight row content*/
+
+ /*image*/
+
+
+/*second table*/
+ .tableA
+ {
+    background: url(../img/specific/2.png);
+    top: 502px;
+    right: 38px;
+    background-size: 100% 100%;
+    width: 554px;
+    height: 406px;
+    position:absolute;
+    left:21px;
+ }
+.methodButton {
+    position: relative;
+    top: 163px;
+    height: 90px;
+    width: 571px;
+    left: 0;
+    display: inline-flex;
+}
+ 
+
+.methodBtnOneText {
+    position: relative;
+    left: 0px;
+    top: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.methodBtnTwoText {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 14px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+
+
+
+.methodButtonTwo {
+    background: #919191;
+    border-radius: 16px;
+    color: white;
+    height: 42px;
+    width: 167px;
+    position: relative;
+    left: 154px;
+    top: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.methodButtonOne {
+    background: #919191;
+    border-radius: 16px;
+    color: white;
+    height: 42px;
+    width: 167px;
+    position: relative;
+    left: 114px;
+    top: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*second table*/
+
+/*footer*/
+.footerNote {
+    position: absolute;
+    top: 649px;
+    left: 48px;
+}
+span.footerNumber {
+    margin-left: -5px;
+}
+
+/*modal validation*/
+.limitations{
+    position: absolute;
+    width: 561px;
+    top: 77px;
+    left: 31px;
+    list-style-type: none;
+}
+.limitations li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 0 14px 17px;
+    width: 850px;
+}
+.limitations li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -17px;
+    top: 4px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+
+/*modal validation*/
+
+/*sensitvity analysis*/
+.sensitivityTwo{
+    position: absolute;
+    width: 552px;
+    top: 128px;
+    left: 38px;
+    list-style-type: none;
+}
+.sensitivityTwo li {
+    list-style-type: none;
+    position: relative;
+    margin: 0px -2px 14px 10px;
+    width: 850px;
+}
+.sensitivityTwo li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -17px;
+    top: 5px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color:#585858;
+}
+.headOne{
+    position: absolute;
+    top: 48px;
+    left: 30px;
+}
+
+.ullast{
+    width: 983px;
+    position: absolute;
+    top: 150px;
+    left: 14px;
+}
+
+.headTwo{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+/*sensitivity anaysis*/
+/*footer*/
+
+
+.dominant{
+    position: relative;
+    top: 0;
+    height: 96px;  
+}
+.dominant00{
+    position: relative;
+    top: 0;
+    height: 61px;
+}
+
+.dominant{
+    position: relative;
+    top: 0;
+    height: 96px;  
+}
+.dominant00{
+    position: relative;
+    top: 0;
+    height: 61px;
+}
+.severe{
+    position: relative;
+    top: 0;
+    height: 55px;
+}
+.reccurence{
+    position: relative;
+    top: 0;
+    height: 55px;
+}
+.plus{
+    position: relative;
+    top: 0;
+    height: 54px;
+}
+.cost{
+    position: relative;
+    top: 0;
+    height: 55px;
+}
+.effectiveness{
+    position: relative;
+    top: 0;
+    height: 53px;
+}
+.incremental{
+    position: relative;
+    top: 0;
+    height: 55px;
+}
+.icer{
+    position: relative;
+    top: 0;
+    height: 53px;
+}
+
+div#avModal_modalvalidationClose {
+    position: absolute;
+    right: 24px;
+    top: 22px;
+    height: 34px;
+    width: 34px;
+}
