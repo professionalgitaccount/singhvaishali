@@ -1,0 +1,100 @@
+.scrollimage {
+    width: 1024px;
+    background: white;
+    height: 116px;
+}
+.topImg {
+    position: absolute;
+    top: 40px;
+    left: 58px;
+    height: 61px;
+    width: 209px;
+}
+.iniHead{
+    position: relative;
+    top: 16px;
+    left: 60px;
+}
+.iniTxtOne{
+    position: relative;
+    top: 25px;
+    left: 60px;
+    margin-bottom: 23px;
+}
+.iniTxtTwo{
+    position: relative;
+    top: 15px;
+    left: 60px;
+    width: 870px;
+}
+.isiHead{
+    position: relative;
+    top: 26px;
+    left: 60px;
+}
+.isiList{
+    position: relative;
+    top: 29px;
+    left: 59px;
+}
+.isiList li{
+    list-style-type: none;
+    position: relative;
+    margin: 0 0 7px 14px;
+}
+.isiList li:before{
+    content: "";
+    display: block;
+    position: relative;
+    left: -12px;
+    top: 13px;
+    height: 6px;
+    width: 6px;
+    background: #62a644;
+    border-radius: 50%;
+}
+.piBottomLine{
+    position: relative;
+    top: 40px;
+    left: 52px;
+    /*left: 60px;*/ /*if to be kept consistent*/
+    padding-bottom: 111px;
+}
+.piBottomLineSup{
+    position: relative;
+    line-height: 0px;
+    top: -6px;
+}
+.merckLogo{
+    position: relative;
+    top: 45px;
+    left: 59px;
+    height: 32px;
+    width: 111px;
+    background: url(../img/specific/merckLogo.png) no-repeat;
+    background-size: 100% 100%;
+}
+.copyRight{
+    position: relative;
+    top: 45px;
+    left: 60px;
+    margin-bottom: 18px!important; 
+}
+.copyRightr{
+    position: relative;
+    left: 17px;
+}
+.btnspace{
+    position: relative;
+    top: 13px;
+
+}
+#scrollableContent {
+    top: 74px;
+    position: relative;
+    width: 993px;
+    height: 552px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+}
